@@ -3,4 +3,3 @@ pandas
 numpy
 statsmodels.tsa.stattools
 pmdarima
-auto_arima
