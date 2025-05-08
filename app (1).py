@@ -54,7 +54,7 @@ if uploaded_file:
 
     predicted_prices = [last_price * (1+forecast_returns.iloc[0])]
     for i in forecast_returns.iloc[1:]:
-        predicted_prices.append(predicted_prices[-1]*(1+r))
+        predicted_prices.append(predicted_prices[-1]*(1+i))
 
     st.dataframe(predicted_prices)
 
