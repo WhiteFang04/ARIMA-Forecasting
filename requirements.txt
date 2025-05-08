@@ -1,6 +1,6 @@
 streamlit
 pandas
 numpy
-statsmodels
+statsmodels.tsa.stattools
 pmdarima
 auto_arima
